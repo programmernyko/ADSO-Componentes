@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <div class="container"></div>
+    <h1 class="text-center">Hello, Bootstrap!!</h1>
+    <div class="text-center m-2">
+        <button type="button" class="btn btn-warning">Success</button>
+    </div>
+
+    <script src="./assets/bootstrap/js/bootstrap.min.js">   </script>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header"></h2>
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It’s also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It’s also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body ">
+                        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It’s also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+
+                    </div>
+                </div>
+            </div>
+            <div class="Como funciona el acordion">
+                <h2 class="como funciona el acordion  ">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Como funciona el acordion #4
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        El acordeón utiliza un mecanismo de colapso interno para hacerlo plegable.
+
+                    </div>
+                </div>
+            </div>
+            <div class="alerta">
+                <div class="alert alert-primary" role="alert">
+                    A simple primary alert—check it out!
+                </div>
+
+                <div class="alert alert-warning" role="alert">
+                    Las alertas están disponibles para texto de cualquier longitud, así como un botón de cierre
+                    opcional.
+                    Para un estilo adecuado, utilice una de las ocho clases contextuales obligatorias.alert-success (p.
+                    ej.,
+                    ). Para el cierre en línea
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary position-relative">
+                Mensajes
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    948+
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </button>
+            <h1>Example heading <span class="badge text-bg-secondary">New</span></h1>
+            <h2>Example heading <span class="badge text-bg-secondary">New</span></h2>
+            <h3>Ejemplo de título <span class="badge text-bg-secondary">Nuevo</span></h3>
+            <h4>Ejemplo</h4>
+            <p>Las insignias se escalan para ajustarse al tamaño del elemento principal inmediato mediante el uso de
+                tamaños de fuente y emunidades relativos.
+                A partir de la versión 5, las insignias ya no tienen estilos de enfoque ni de desplazamiento para los
+                enlaces.</p>
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Biblioteca</li>
+                </ol>
+            </nav>
+            <p> 👆</p>
+            <p>Los divisores se añaden automáticamente en CSS mediante ::beforey content. Se pueden cambiar modificando
+                una propiedad personalizada local de CSS --bs-breadcrumb-dividero mediante la
+                $breadcrumb-dividervariable Sass (y $breadcrumb-divider-flippedpara su equivalente RTL, si es
+                necesario). Por defecto, usamos nuestra variable Sass, que se configura como alternativa a la propiedad
+                personalizada. De esta forma,
+                se obtiene un divisor global que se puede sobrescribir sin tener que recompilar CSS</p>
+
+            <div class="card" style="width: 18rem;">
+                <img src="siu.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <h1>EJEMPLO</h1>
+                    <p>Las tarjetas se crean con la menor cantidad posible de marcado y estilos, pero aun así ofrecen un
+                        gran control y personalización. Creadas con flexbox, ofrecen una alineación sencilla y se
+                        integran a la perfección con otros componentes de Bootstrap. No tienen espaciado
+                        marginpredeterminado, así que usa utilidades de espaciado según sea necesario.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn btn-danger">izquiera</button>
+  <button type="button" class="btn btn-warning">medio</button>
+  <button type="button" class="btn btn-success">derecha</button>
+</div>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="siu.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="siu.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="siu.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <p>Puedes añadir indicadores al carrusel, junto con los controles de anterior/siguiente. Estos indicadores permiten a los usuarios acceder directamente a una diapositiva específica. Para hacerlo, agrega el atributo data-bs-slide-to al botón de un indicador, y proporciona el índice de la diapositiva a mostrar.</p>
+</div>
+<button type="button" class="btn-close" aria-label="Close"></button>
+<p>Proporciona una opción para descartar o cerrar un componente con .btn-close. El estilo predeterminado es limitado, pero altamente personalizable. Modifica las variables de Sass para reemplazar el valor predeterminado background-image. Asegúrate de incluir texto para lectores de pantalla , como hicimos con aria-label.   </p>
+<p class="d-inline-flex gap-1">
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-bs-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Contenido de marcador de posición para el componente de contracción. Este panel está oculto por defecto, pero se muestra cuando el usuario activa el disparador correspondiente.
+  </div>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item active" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+
+  <p>Un solo botón 
+Cualquier elemento individual .btnpuede convertirse en un menú desplegable con algunos cambios de marcado. Así es como puedes usarlos con <button>los elementos:</p>
+</div>
+<ul class="list-group">
+  <li class="list-group-item">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li>
+</ul>
+<p>Ejemplo básico 
+El grupo de listas más básico es una lista desordenada con elementos y las clases correspondientes. Desarrolle su estructura con las opciones siguientes o con su propio CSS según sea necesario.</p>
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Show a second modal and hide this one with the button below.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Hide this modal and show the first with the button below.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Open first modal</button>
+<p>Alternar entre modales 
+Alterna entre varios modales mediante una colocación inteligente de los atributos data-bs-targety data-bs-toggle. Por ejemplo, podrías alternar un modal de restablecimiento de contraseña desde un modal de inicio de sesión ya abierto. Ten en cuenta que no se pueden abrir varios modales simultáneamente ; este método simplemente alterna entre dos modales separado</p>
+  
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  <p>Contenido compatible 
+Las barras de navegación incluyen compatibilidad integrada con varios subcomponentes. Elija entre los siguientes según sus necesidades:
+
+.navbar-brandpara el nombre de su empresa, producto o proyecto.
+.navbar-navpara una navegación liviana y de altura completa (incluido soporte para menús desplegables).
+.navbar-togglerpara usar con nuestro complemento de colapso y otros comportamientos de alternancia de navegación .
+Utilidades de flexibilidad y espaciado para cualquier control y acción de formulario.
+.navbar-textpara agregar cadenas de texto centradas verticalmente.
+.collapse.navbar-collapsepara agrupar y ocultar el contenido de la barra de navegación mediante un punto de interrupción principal.
+Agregue una opción .navbar-nav-scrollpara configurar max-heighty desplazarse por el contenido de la barra de navegación expandida .
+A continuación se muestra un ejemplo de todos los subcomponentes incluidos en una barra de navegación con temática clara y responsiva que se contrae automáticamente en el lgpunto de interrupción (grande).</p>
+</nav>
+<ul class="nav nav-underline">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<p>Navegación base 
+La navegación disponible en Bootstrap comparte marcado y estilos generales, desde la .navclase base hasta los estados activo y deshabilitado. Intercambia las clases modificadoras para cambiar entre cada estilo.
+
+El componente base .navestá desarrollado con Flexbox y proporciona una base sólida para crear todo tipo de componentes de navegación. Incluye algunas modificaciones de estilo (para trabajar con listas), relleno de enlaces para áreas de mayor impacto y opciones básicas de estilo desactivado.</p>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+<p>Cómo funciona 
+Offcanvas es un componente de barra lateral que se puede activar mediante JavaScript para que aparezca en el borde izquierdo, derecho, superior o inferior de la ventana gráfica. Los botones o anclas se utilizan como activadores asociados a elementos específicos que se activan, y datalos atributos se utilizan para invocar nuestro JavaScript.
+
+Offcanvas comparte parte del código JavaScript con los modales. Conceptualmente, son bastante similares, pero son plugins independientes.
+De manera similar, algunas variables de origen Sass para los estilos y dimensiones de offcanvas se heredan de las variables del modal.
+Cuando se muestra, offcanvas incluye un fondo predeterminado en el que se puede hacer clic para ocultarlo.
+De manera similar a los modales, solo se puede mostrar un offcanvas a la vez.
+¡Atención! Dado el modo en que CSS gestiona las animaciones, no se puede usar margin"or" translateen un .offcanvaselemento. En su lugar, se debe usar la clase como un elemento envolvente independiente.</p>
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<p>Trabajando con iconos 
+¿Desea usar un icono o símbolo en lugar de texto para algunos enlaces de paginación? Asegúrese de proporcionar compatibilidad adecuada con lectores de pantalla mediante ariaatributos.</p>
+<div class="card">
+  <img src="siu.jpg" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" aria-hidden="true">
+  <img src="siu.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title placeholder-glow">
+      <span class="placeholder col-6"></span>
+    </h5>
+    <p class="card-text placeholder-glow">
+      <span class="placeholder col-7"></span>
+      <span class="placeholder col-4"></span>
+      <span class="placeholder col-4"></span>
+      <span class="placeholder col-6"></span>
+      <span class="placeholder col-8"></span>
+    </p>
+    <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div>
+<p>Cómo funciona 
+Crea marcadores de posición con la .placeholderclase y una clase de columna de cuadrícula (p. ej., .col-6) para establecer el width. Pueden reemplazar el texto dentro de un elemento o añadirse como una clase modificadora a un componente existente.
+
+Aplicamos estilo adicional a .btns via ::beforepara garantizar que heightse respete. Puede extender este patrón para otras situaciones según sea necesario o agregar un &nbsp;dentro del elemento para reflejar la altura cuando se represente el texto real en su lugar.</p>
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here’s some amazing content. It’s very engaging. Right?">Click to toggle popover</button>
+<p>Descripción general 
+Cosas que debes saber al usar el complemento popover:
+
+Los popovers se basan en la biblioteca externa Popper para su posicionamiento. Debe incluir popper.min.js antes bootstrap.jso usar una bootstrap.bundle.min.jsque contenga Popper.
+Los popovers requieren el complemento popover como dependencia.
+Los popovers son optativos por razones de rendimiento, por lo que debes inicializarlos tú mismo .
+titleLos valores de longitud cero contentnunca mostrarán una ventana emergente.
+Especificar container: 'body'para evitar problemas de representación en componentes más complejos (como nuestros grupos de entrada, grupos de botones, etc.).
+La activación de ventanas emergentes en elementos ocultos no funcionará.
+Los popovers para elementos .disabledo disableddeben activarse en un elemento contenedor.
+Al activarse desde anclas que se extienden por varias líneas, los elementos emergentes se centrarán en el ancho total de las anclas. Úselo .text-nowrapen su <a>s para evitar este comportamiento.
+Los elementos emergentes deben ocultarse antes de que sus elementos correspondientes se eliminen del DOM.
+Los popovers se pueden activar gracias a un elemento dentro de un DOM de sombra.</p>
+<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-success" style="width: 25%">25%</div>
+</div>
+<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-info" style="width: 50%">50%</div>
+</div>
+<div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-warning" style="width: 75%">75%</div>
+</div>
+<div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-danger" style="width: 100%">100%</div>
+  <p>Cómo funciona 
+Los componentes de progreso se crean con dos elementos HTML, CSS para configurar el ancho y algunos atributos. No utilizamos el elemento HTML5<progress> , lo que garantiza que puedas apilar barras de progreso, animarlas y colocar etiquetas de texto sobre ellas.
+
+Usamos el .progresscomo contenedor para indicar el valor máximo de la barra de progreso.
+El .progresscontenedor también requiere los atributos role="progressbar"y ariapara hacerlo accesible, incluido un nombre accesible (usando aria-label, aria-labelledby, o similar).
+Usamos el interior .progress-barúnicamente para la barra visual y la etiqueta.
+Requiere .progress-barun estilo en línea, una clase de utilidad o CSS personalizado para establecer su ancho.
+Proporcionamos una .progress-stackedclase especial para crear barras de progreso múltiples/apiladas.</p>
+</div>
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading4">Fourth heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading5">Fifth heading</h4>
+  <p>...</p>
+  <p>Cómo funciona 
+Scrollspy activa o desactiva la .activeclase en <a>elementos de ancla () cuando el elemento idreferenciado por el ancla hrefse desplaza a la vista. Scrollspy se recomienda usar junto con un componente de navegación de Bootstrap o un grupo de listas , pero también funciona con cualquier elemento de ancla en la página actual. Así es como funciona.
+
+Para empezar, Scrollspy requiere dos elementos: una navegación, un grupo de listas o un conjunto simple de enlaces, además de un contenedor desplazable. Este contenedor puede ser el elemento <body>o un elemento personalizado con un conjunto heighty overflow-y: scroll.
+
+En el contenedor desplazable, agregue data-bs-spy="scroll"y data-bs-target="#navId"donde navIdes el único idde la navegación asociada. Si no hay ningún elemento enfocable dentro del elemento, asegúrese de incluir también un tabindex="0"para garantizar el acceso mediante teclado.
+
+Al desplazarse por el contenedor "espiado", .activese añade y elimina una clase de los enlaces de anclaje dentro de la navegación asociada. Los enlaces deben tener idobjetivos resolubles; de lo contrario, se ignoran. Por ejemplo, un <a href="#home">home</a>debe corresponder a algo en el DOM como<div id="home"></div>
+
+Los elementos de destino no visibles se ignorarán. Consulte la sección "Elementos no visibles" a continuación</p>
+</div>
+<div class="d-flex align-items-center">
+  <strong role="status">Loading...</strong>
+  <div class="spinner-border ms-auto" aria-hidden="true"></div>
+  <p>Acerca de 
+Los "spinners" de Bootstrap se pueden usar para mostrar el estado de carga de tus proyectos. Están creados únicamente con HTML y CSS, lo que significa que no necesitas JavaScript para crearlos. Sin embargo, necesitarás JavaScript personalizado para activar o desactivar su visibilidad. Su apariencia, alineación y tamaño se pueden personalizar fácilmente con nuestras increíbles clases de utilidad.</p>
+</div>
+<form>
+  <div class="mb-3">
+    <label for="selectToastPlacement">Toast placement</label>
+    <select class="form-select mt-2" id="selectToastPlacement">
+      <option value="" selected>Select a position...</option>
+      <option value="top-0 start-0">Top left</option>
+      <option value="top-0 start-50 translate-middle-x">Top center</option>
+      <option value="top-0 end-0">Top right</option>
+      <option value="top-50 start-0 translate-middle-y">Middle left</option>
+      <option value="top-50 start-50 translate-middle">Middle center</option>
+      <option value="top-50 end-0 translate-middle-y">Middle right</option>
+      <option value="bottom-0 start-0">Bottom left</option>
+      <option value="bottom-0 start-50 translate-middle-x">Bottom center</option>
+      <option value="bottom-0 end-0">Bottom right</option>
+    </select>
+  </div>
+</form>
+<div aria-live="polite" aria-atomic="true" class="bg-body-secondary position-relative bd-example-toasts rounded-3">
+  <div class="toast-container p-3" id="toastPlacement">
+    <div class="toast">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="...">
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+      </div>
+      <div class="toast-body">
+        Hello, world! This is a toast message.
+      </div>
+    </div>
+  </div>
+  <p>Tostadas
+Notificaciones push a tus visitantes con un brindis, un mensaje de alerta liviano y fácilmente personalizable.
+
+En esta página
+Descripción general
+Ejemplos
+Básico
+Ejemplo vivo
+Translúcido
+Apilado
+Contenido personalizado
+Esquemas de color
+Colocación
+Accesibilidad
+CSS
+Variables
+Variables de Sass
+Uso
+Desencadenantes
+Opciones
+Métodos
+Eventos
+ads via Carbon
+Design and Development tips in your inbox. Every weekday.
+ads via Carbon
+Las notificaciones emergentes son notificaciones ligeras diseñadas para imitar las notificaciones push que se han popularizado en los sistemas operativos móviles y de escritorio. Están diseñadas con Flexbox, por lo que son fáciles de alinear y colocar.</p>
+</div>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+  Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+  Tooltip on right
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+  Tooltip on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+  Tooltip on left
+</button>
+<P>Descripción general 
+Cosas que debes saber al usar el complemento de información sobre herramientas:
+
+Las descripciones emergentes se basan en la biblioteca externa Popper para su posicionamiento. Debe incluir popper.min.js antes bootstrap.jso usar una bootstrap.bundle.min.jsque contenga Popper.
+Las descripciones emergentes son opcionales por razones de rendimiento, por lo que debe inicializarlas usted mismo .
+Las descripciones emergentes con títulos de longitud cero nunca se muestran.
+Especificar container: 'body'para evitar problemas de representación en componentes más complejos (como nuestros grupos de entrada, grupos de botones, etc.).
+La activación de información sobre herramientas en elementos ocultos no funcionará.
+Las descripciones emergentes de los elementos .disabledo disableddeben activarse en un elemento contenedor.
+Al activarse desde hipervínculos que abarcan varias líneas, la información sobre herramientas se centrará. Úselo white-space: nowrap;en sus <a>s para evitar este comportamiento.
+Las descripciones emergentes deben ocultarse antes de que sus elementos correspondientes se eliminen del DOM.
+Las descripciones emergentes se pueden activar gracias a un elemento dentro de un DOM de sombra.</P>
+</div>
+    
+
+
+
+</body>
+
+</html>
